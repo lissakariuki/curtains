@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{
+    Position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navbar .logo img {
+    width: 40px;
+}
+
+.navbar .links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
