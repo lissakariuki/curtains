@@ -8,17 +8,19 @@
 body{
     width: 100%;
     height: 100vh;
-    background: url();
+    background: url() center / no-repeat /cover ;
 }
 header{
     Position: fixed;
     width: 100%;
     left: 0;
     top: 0;
+    padding: 0 10px;
 }
 /*NAVIGATION BAR*/
 .navbar{
     display: flex;
+    padding: 22 0px;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -32,8 +34,10 @@ header{
 }
 .navbar .logo img {
     width: 40px;
+    border-radius: 50%;
 }
 .navbar .logo h2{
+    color: #fff;
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -42,4 +46,16 @@ header{
     display: flex;
     list-style: none;
     gap: 35px;
+}
+.navbar .links a{ 
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.navbar .links a:hover {
+    color:antiquewhite;
+}
+.navbar .login-btn {
+    
 }
